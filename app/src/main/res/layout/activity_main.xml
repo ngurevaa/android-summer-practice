@@ -8,13 +8,14 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:navGraph="@navigation/nav_graph"
-        app:defaultNavHost="true"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:navGraph="@navigation/nav_graph" />
 
+</androidx.constraintlayout.widget.ConstraintLayout>
