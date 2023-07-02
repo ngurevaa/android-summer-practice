@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/baseline_music_note_24"
+        android:title="Music"/>
+    <item
+        android:id="@+id/relaxFragment"
+        android:icon="@drawable/baseline_toggle_on_24"
+        android:title="Relax"/>
+    <item
+        android:id="@+id/dogFragment"
+        android:icon="@drawable/baseline_pets_24"
+        android:title="Dog"/>
+    <item
+        android:id="@+id/catFragment"
+        android:icon="@drawable/baseline_pest_control_rodent_24"
+        android:title="Cat"/>
+
+</menu>
